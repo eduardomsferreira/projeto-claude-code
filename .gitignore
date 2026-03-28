@@ -1,0 +1,10 @@
+# Claude Code local settings
+.claude/settings.local.json
+.claude/launch.json
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

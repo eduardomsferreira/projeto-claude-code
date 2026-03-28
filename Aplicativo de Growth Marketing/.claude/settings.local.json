@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/eduar/.nvm/versions/**)",
+      "Bash(command -v node)",
+      "Read(//c//**)",
+      "Read(//proc/**)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where node:*)",
+      "Bash(where python3:*)",
+      "Bash(where py:*)"
+    ]
+  }
+}
