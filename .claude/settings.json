@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"c:/Users/eduar/Downloads/Projeto Claude Code\" && git add -A && git diff --staged --quiet || git commit -m \"Auto-sync: $(date '+%Y-%m-%d %H:%M:%S')\" && git push origin master 2>&1 || true"
+          }
+        ]
+      }
+    ]
+  }
+}
